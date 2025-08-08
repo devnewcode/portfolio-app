@@ -1,0 +1,23 @@
+[
+  {
+    "id": "project-one",
+    "name": "Registration Management System Viplava 2024",
+    "image": "/viplava2024.png",
+    "description": "As a voluntary Full Stack Developer for Viplava 2024, a youth anti-addiction festival organized by ISKCON Youth Forum, I developed a complete registration management system that efficiently handled over 700 registrations. I built a responsive landing page, implemented secure form validation, integrated both online and offline payment options, and created a referral system to boost outreach. Additionally, I automated email confirmations using the Gmail API to streamline communication and reduce manual follow-up. This project allowed me to contribute technically to a meaningful cause, supporting event coordination and improving the overall registration experience.",
+    "stack": ["ReactJs", "HTML", "CSS", "JavaScript", "Node.js","MongoDB","ExpressJs"]
+  },
+  {
+    "id": "project-two",
+    "name": "Restaurant App",
+    "image": "/project-two.png",
+    "description": "Built a responsive and feature-rich restaurant web application using Next.js, MongoDB, and CSS, aimed at helping restaurants manage their online menus and customer interactions. The app offers a smooth user experience with secure sign-up, dynamic menu browsing, and a smart cart system that ensures users can order from only one restaurant at a time. For restaurant owners, the platform includes an intuitive dashboard to update menus in real-time, with the ability to add, edit, or remove food items effortlessly. This project showcases practical full-stack development, user-focused design, and real-time data handling, ideal for modern restaurant operations. Project Link : restaurant-app-six-orpin.vercel.app",
+    "stack": ["NextJs", "ExpressJs", "MongoDB","NodeJs","Git","CSS"]
+  },
+  {
+    "id": "project-three",
+    "name": "Project Three",
+    "image": "/project-three.png",
+    "description": "A modern Next.js portfolio site.",
+    "stack": ["Next.js", "React", "TailwindCSS"]
+  }
+]
