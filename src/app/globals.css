@@ -230,8 +230,8 @@ h1, h2, p {
   }
 .profile-img{
     width: 80vw;
-    /* height: auto; */
-    /* max-height: 60vh; */
+    height: auto;
+    max-height: 60vh;
 }
   .carousel-left,
   .carousel-right {
