@@ -3,7 +3,7 @@ export default function Contact() {
     <section className="contact-section">
       <h1>Contact Me</h1>
       <p>
-        I'm always open to opportunities, collaborations, or simply having a conversation
+        I am always open to opportunities, collaborations, or simply having a conversation
         about tech and development. If you'd like to reach out, feel free to email me at:
       </p>
       <p style={{ fontWeight: "bold", fontSize: "1.2rem", marginTop: "1rem" }}>
