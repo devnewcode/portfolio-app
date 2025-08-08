@@ -1,4 +1,5 @@
 import projects from "@/data/projects.json";
+import Image from "next/image";
 
 export default async function ProjectDetail({ params }) {
     const resolvedParams = await params;
@@ -14,7 +15,14 @@ export default async function ProjectDetail({ params }) {
     return (
         <section className="project-detail">
             <h1>{project.name}</h1>
-            <img src={project.image} alt={project.name} style={{ width: "60%", maxWidth: "600px" }} />
+            {/* <img src={project.image} alt={project.name} style={{ width: "60%", maxWidth: "600px" }} /> */}
+            <Image
+                src={project.image}
+                alt={project.name}
+                width={600}
+                height={400}
+                style={{ width: "60%", maxWidth: "600px", height: "auto" }}
+            />
             <p>{project.description}</p>
             <h4>Tech Stack:</h4>
             <div className="tech-stack">

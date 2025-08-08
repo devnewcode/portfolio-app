@@ -1,5 +1,6 @@
 import Image from "next/image";
 import profilePic from "/public/profileimgnew1.png";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -13,7 +14,8 @@ export default function Home() {
             solutions using modern tech like React, MongoDB, and Next.js,
             focused on user-centric design and efficient backend systems.
           </p>
-          <a href="/projects" className="btn">See My Work</a>
+          {/* <a href="/projects" className="btn"></a> */}
+          <Link className="btn" href={"/projects"}>See My Work</Link>
         </div>
         <div className="carousel-right">
           <Image
