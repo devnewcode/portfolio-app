@@ -228,6 +228,30 @@ h1, h2, p {
     flex-direction: column;
     padding: 2rem 1rem;
   }
+  .navbar{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    font-size: 15px;
+    flex-direction: column;
+    /* padding: 1rem; */
+
+  }
+  .nav-links{
+    margin: auto;
+  }
+  .logo{
+    margin: auto;
+    /* align-items: center; */
+  }
+  .about-container{
+    /* flex-direction: column; */
+    padding: 1rem;
+  }
+  .about-section {
+    width: 100%;
+    text-align: center;
+  }
 .profile-img{
     width: 80vw;
     height: auto;
