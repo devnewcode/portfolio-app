@@ -228,7 +228,11 @@ h1, h2, p {
     flex-direction: column;
     padding: 2rem 1rem;
   }
-
+.profile-img{
+    width: 80vw;
+    /* height: auto; */
+    /* max-height: 60vh; */
+}
   .carousel-left,
   .carousel-right {
     flex: none;
