@@ -10,7 +10,7 @@ export default function Contact() {
         devrathteotia2001@gmail.com
       </p>
       <p style={{ marginTop: "1rem" }}>
-        I’ll try my best to get back to you as soon as possible.
+        I will try my best to get back to you as soon as possible.
       </p>
     </section>
   );
