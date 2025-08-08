@@ -174,6 +174,7 @@ h1, h2, p {
   /* background-color: #f0f0f0; */
   padding: 2rem;
   border-radius: 12px;
+  text-align: center;
 }
 
 .carousel-left h1 {

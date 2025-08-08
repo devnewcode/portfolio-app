@@ -7,7 +7,7 @@ export default function Home() {
       {/* Carousel Section */}
       <section className="carousel">
         <div className="carousel-left">
-          <h1>Hello, I'm <span className="highlight">Devrath</span></h1>
+          <h1>Hello, I am <span className="highlight">Devrath</span></h1>
           <p>
             Full Stack Developer passionate about creating seamless web
             solutions using modern tech like React, MongoDB, and Next.js,
