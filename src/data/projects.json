@@ -4,20 +4,20 @@
     "name": "Registration Management System Viplava 2024",
     "image": "/viplava2024.png",
     "description": "As a voluntary Full Stack Developer for Viplava 2024, a youth anti-addiction festival organized by ISKCON Youth Forum, I developed a complete registration management system that efficiently handled over 700 registrations. I built a responsive landing page, implemented secure form validation, integrated both online and offline payment options, and created a referral system to boost outreach. Additionally, I automated email confirmations using the Gmail API to streamline communication and reduce manual follow-up. This project allowed me to contribute technically to a meaningful cause, supporting event coordination and improving the overall registration experience.",
-    "stack": ["ReactJs", "HTML", "CSS", "JavaScript", "Node.js","MongoDB","ExpressJs"]
+    "stack": ["React.js", "HTML", "CSS", "JavaScript", "Node.js","MongoDB","Express.js"]
   },
   {
     "id": "project-two",
     "name": "Restaurant App",
     "image": "/project-two.png",
     "description": "Built a responsive and feature-rich restaurant web application using Next.js, MongoDB, and CSS, aimed at helping restaurants manage their online menus and customer interactions. The app offers a smooth user experience with secure sign-up, dynamic menu browsing, and a smart cart system that ensures users can order from only one restaurant at a time. For restaurant owners, the platform includes an intuitive dashboard to update menus in real-time, with the ability to add, edit, or remove food items effortlessly. This project showcases practical full-stack development, user-focused design, and real-time data handling, ideal for modern restaurant operations. Project Link : restaurant-app-six-orpin.vercel.app",
-    "stack": ["NextJs", "ExpressJs", "MongoDB","NodeJs","Git","CSS"]
+    "stack": ["Next.js", "Express.js", "MongoDB","Node.js","Git","CSS"]
   },
   {
     "id": "project-three",
     "name": "Event Management & Admin Dashboard System",
     "image": "/project-three.png",
     "description": "I developed a voluntary event registration and management system for a society, designed to streamline participant registration and attendance tracking. The system includes an admin dashboard where organizers can view and manage attendee details, monitor event attendance in real time, and maintain a centralized participant database. The project was built using Next.js for the frontend and server-side rendering, with MongoDB as the database to store and manage participant information efficiently. Node.js and Express were used for backend APIs and data handling, integrated seamlessly within the Next.js application. This solution improved the society’s event organization workflow while reducing manual tracking.",
-    "stack": ["Next.js", "React", "TailwindCSS"]
+    "stack": ["Next.js", "Node.js", "Express.js", "MongoDB", "CSS"]
   }
 ]
