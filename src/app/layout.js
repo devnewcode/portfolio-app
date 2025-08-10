@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "My Portfolio",
-  description: "A portfolio built with Next.js App Router and plain CSS",
+  title: "Dev by Devrath",
+  description: "A portfolio built with Next.js and CSS, showcasing my skills and projects as a Full Stack Developer.",
 };
 
 export default function RootLayout({ children }) {
@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <nav className="navbar">
-          <h2 className="logo">MyPortfolio</h2>
+          <h2 className="logo">Dev by Devrath</h2>
           <div className="nav-links">
             <Link href="/">Home</Link>
             <Link href="/about">About</Link>

@@ -64,8 +64,9 @@ h1, h2, p {
 }
 
 .logo {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .nav-links {
@@ -281,8 +282,9 @@ h1, h2, p {
   color: black;
   margin-bottom: 2vh;
   margin-right: 2vh;
-  /* background-color: #f0f8ff; */
 }
+
+
 .projects {
   /* padding: 2rem; */
   text-align: center;
