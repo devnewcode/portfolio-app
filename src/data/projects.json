@@ -15,9 +15,9 @@
   },
   {
     "id": "project-three",
-    "name": "Project Three",
+    "name": "Event Management & Admin Dashboard System",
     "image": "/project-three.png",
-    "description": "A modern Next.js portfolio site.",
+    "description": "I developed a voluntary event registration and management system for a society, designed to streamline participant registration and attendance tracking. The system includes an admin dashboard where organizers can view and manage attendee details, monitor event attendance in real time, and maintain a centralized participant database. The project was built using Next.js for the frontend and server-side rendering, with MongoDB as the database to store and manage participant information efficiently. Node.js and Express were used for backend APIs and data handling, integrated seamlessly within the Next.js application. This solution improved the society’s event organization workflow while reducing manual tracking.",
     "stack": ["Next.js", "React", "TailwindCSS"]
   }
 ]
