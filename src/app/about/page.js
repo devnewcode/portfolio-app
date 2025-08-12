@@ -103,12 +103,12 @@ export default function About() {
           </div>
 
           {/* Call to Action */}
-          <div className={styles.ctaSection}>
+          {/* <div className={styles.ctaSection}>
             <button className={styles.ctaButton}>
               <span>Let&apos;s Build Something Amazing</span>
               <span className={styles.arrow}>→</span>
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

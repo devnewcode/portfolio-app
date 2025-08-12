@@ -19,5 +19,19 @@
     "image": "/project-three.png",
     "description": "I developed a voluntary event registration and management system for a society, designed to streamline participant registration and attendance tracking. The system includes an admin dashboard where organizers can view and manage attendee details, monitor event attendance in real time, and maintain a centralized participant database. The project was built using Next.js for the frontend and server-side rendering, with MongoDB as the database to store and manage participant information efficiently. Node.js and Express were used for backend APIs and data handling, integrated seamlessly within the Next.js application. This solution improved the society’s event organization workflow while reducing manual tracking.",
     "stack": ["Next.js", "Node.js", "Express.js", "MongoDB", "CSS"]
+  },
+  {
+    "id": "project-four",
+    "name": "Shopping Cart App",
+    "image": "/project-four.png",
+    "description": "An e-commerce web application built with React.js, Redux, and Tailwind CSS. It features a clean, intuitive user interface with smooth navigation and dynamic cart functionality. Users can browse products, add or remove items, and see real-time price updates without page reloads. The design focuses on simplicity and a seamless shopping experience. Project Link : devnewcode.github.io/my-ecomm/",
+    "stack": ["React.js", "TailwindCSS", "Redux"]
+  },
+  {
+    "id": "project-five",
+    "name": "Expense Tracker",
+    "image": "/project-five.png",
+    "description": "A simple and efficient web application for tracking income and expenses, built with React.js, Redux, and CSS. It allows users to easily record transactions, categorize them, and maintain a clear overview of their financial activity. Designed with a clean interface for smooth navigation and effortless expense management.",
+    "stack": ["React.js", "Redux", "CSS"]
   }
 ]
