@@ -50,7 +50,7 @@ h1, h2, p {
 }
 
 /* Navbar */
-.navbar {
+/* .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -86,22 +86,22 @@ h1, h2, p {
 .nav-links a:hover {
   background-color: #0070f3;
   color: white;
-}
+} */
 
 /* Main */
-.main-content {
+/* .main-content {
   text-align: center;
   padding: 2rem;
   min-height: 80vh;
-}
+} */
 
 /* Footer */
-.footer {
+/* .footer {
   text-align: center;
   padding: 1rem;
   background-color: #222;
   color: white;
-}
+} */
 
 /* Contact Form */
 .contact-form {
@@ -391,7 +391,83 @@ h1, h2, p {
   color: #333;
 }
 
+/* from claude */
+/* Add these styles to your existing globals.css file */
 
+/* Navbar Styles */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(15, 23, 42, 0.9);
+  backdrop-filter: blur(10px);
+  padding: 1.5rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  border-bottom: 1px solid rgba(34, 211, 238, 0.1);
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  background: linear-gradient(45deg, #22d3ee, #a855f7);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #22d3ee;
+}
+
+/* Main Content */
+.main-content {
+  padding-top: 59px;
+}
+
+/* Footer */
+.footer {
+  background: rgba(15, 23, 42, 0.9);
+  text-align: center;
+  padding: 2rem;
+  color: #94a3b8;
+  border-top: 1px solid rgba(34, 211, 238, 0.1);
+}
+
+/* Mobile Responsive for Navbar */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 1rem;
+  }
+  
+  .nav-links {
+    gap: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  .logo {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+/* to claude */
 /* Responsive Design */
 @media (max-width: 768px) {
   .carousel {
@@ -415,13 +491,13 @@ h1, h2, p {
     width: 70%;
     margin: 1rem 0;
   }
-  .nav-links{
+  /* .nav-links{
     margin: auto;
-  }
-  .logo{
+  } */
+  /* .logo{
     margin: auto;
     /* align-items: center; */
-  }
+  /* } */
   .about-container{
     /* flex-direction: column; */
     padding: 1rem;
@@ -451,18 +527,18 @@ h1, h2, p {
     font-size: 1rem;
   }
 
-  .navbar {
+  /* .navbar {
     flex-direction: column;
     align-items: flex-start;
-  }
+  } */
 
-  .nav-links {
+  /* .nav-links {
     flex-wrap: wrap;
     margin-top: 0.5rem;
-  }
+  } */
 
-  .nav-links a {
+  /* .nav-links a {
     margin: 0.25rem 0.5rem 0.25rem 0;
-  }
+  } */
 }
 
