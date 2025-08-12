@@ -469,7 +469,7 @@ h1, h2, p {
 
 /* to claude */
 /* Responsive Design */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .carousel {
     flex-direction: column;
     padding: 2rem 1rem;
@@ -479,10 +479,10 @@ h1, h2, p {
     align-items: center;
     padding: 1rem;
     font-size: 15px;
-    flex-direction: column;
+    flex-direction: column; */
     /* padding: 1rem; */
 
-  }
+  /* }
   .project-grid{
     flex-direction: column;
     align-items: center;
@@ -490,7 +490,7 @@ h1, h2, p {
   .project-card{
     width: 70%;
     margin: 1rem 0;
-  }
+  } */
   /* .nav-links{
     margin: auto;
   } */
@@ -498,9 +498,9 @@ h1, h2, p {
     margin: auto;
     /* align-items: center; */
   /* } */
-  .about-container{
+  /* .about-container{ */
     /* flex-direction: column; */
-    padding: 1rem;
+    /* padding: 1rem;
   }
   .about-section {
     width: 100%;
@@ -525,7 +525,7 @@ h1, h2, p {
 
   .carousel-left p {
     font-size: 1rem;
-  }
+  } */
 
   /* .navbar {
     flex-direction: column;
@@ -540,5 +540,5 @@ h1, h2, p {
   /* .nav-links a {
     margin: 0.25rem 0.5rem 0.25rem 0;
   } */
-}
+/* } */
 
