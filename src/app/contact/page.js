@@ -34,9 +34,9 @@ export default function Contact() {
                 <p className={styles.emailText}>
                   devrathteotia2001@gmail.com
                 </p>
-                <button className={styles.copyButton}>
+                {/* <button className={styles.copyButton}>
                   <span>Copy Email</span>
-                </button>
+                </button> */}
               </div>
               
               <p className={styles.responseText}>

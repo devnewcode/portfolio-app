@@ -50,9 +50,9 @@ export default function Home() {
                 <span className={styles.arrow}>→</span>
               </Link>
               
-              <button className={styles.secondaryBtn}>
+              {/* <button className={styles.secondaryBtn}>
                 Download CV
-              </button>
+              </button> */}
             </div>
           </div>
 
@@ -82,10 +82,10 @@ export default function Home() {
       <section className={styles.skillsSection}>
         <div className={styles.skillsContainer}>
           <h2 className={styles.skillsTitle}>
-            <span className={styles.skillsTitleGradient}>Skills & Technologies</span>
+            <span className={styles.skillsTitleGradient}>My Skills & Technologies</span>
           </h2>
           <p className={styles.skillsSubtitle}>
-            A comprehensive toolkit for building modern, scalable web applications
+            A toolkit I use to build modern, scalable web applications
           </p>
 
           {/* Skills Grid */}
