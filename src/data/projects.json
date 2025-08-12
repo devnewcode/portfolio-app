@@ -31,7 +31,7 @@
     "id": "project-five",
     "name": "Expense Tracker",
     "image": "/project-five.png",
-    "description": "A simple and efficient web application for tracking income and expenses, built with React.js, Redux, and CSS. It allows users to easily record transactions, categorize them, and maintain a clear overview of their financial activity. Designed with a clean interface for smooth navigation and effortless expense management.",
+    "description": "A simple and efficient web application for tracking income and expenses, built with React.js, Redux, and CSS. It allows users to easily record transactions, categorize them, and maintain a clear overview of their financial activity. Designed with a clean interface for smooth navigation and effortless expense management. Project Link: devnewcode.github.io/expense-tracker/",
     "stack": ["React.js", "Redux", "CSS"]
   }
 ]
