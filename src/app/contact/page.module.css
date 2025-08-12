@@ -1,0 +1,237 @@
+/* Container */
+.container {
+  min-width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f172a 0%, #581c87 50%, #0f172a 100%);
+  color: white;
+  position: relative;
+  font-family: var(--font-geist-sans, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif);
+}
+
+/* Background Blobs */
+.backgroundBlob1, .backgroundBlob2 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  filter: blur(40px);
+  animation: float 6s ease-in-out infinite;
+  z-index: 0;
+}
+
+.backgroundBlob1 {
+  background: rgba(168, 85, 247, 0.3);
+  top: 0;
+  right: 0;
+  transform: translate(50%, -50%);
+}
+
+.backgroundBlob2 {
+  background: rgba(34, 211, 238, 0.3);
+  animation-direction: reverse;
+  animation-duration: 8s;
+  bottom: 0;
+  left: 0;
+  transform: translate(-50%, 50%);
+}
+
+/* Contact Section */
+.contactSection {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 80px 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.contactContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* Header */
+.headerSection {
+  text-align: center;
+  margin-bottom: 60px;
+  animation: fadeInUp 1s ease-out both;
+}
+
+.contactTitle {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: bold;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.nameHighlight {
+  background: linear-gradient(45deg, #22d3ee, #a855f7, #f472b6);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientMove 3s ease infinite;
+}
+
+.titleUnderline {
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(90deg, #22d3ee, #a855f7);
+  margin: 0 auto;
+  border-radius: 2px;
+}
+
+/* Contact Content */
+.contactContent {
+  animation: fadeInUp 0.8s ease-out 0.3s both;
+}
+
+.contactCard {
+  background: rgba(30, 41, 59, 0.6);
+  border: 1px solid #334155;
+  border-radius: 20px;
+  padding: 40px;
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.contactCard:hover {
+  transform: translateY(-8px);
+  border-color: #22d3ee;
+  box-shadow: 0 20px 40px rgba(34, 211, 238, 0.15);
+}
+
+/* Card Header */
+.cardHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+.cardDot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #22d3ee;
+  animation: pulse 2s infinite;
+}
+
+.cardTitle {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin: 0;
+  color: #22d3ee;
+}
+
+/* Contact Text */
+.contactText {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #cbd5e1;
+  margin-bottom: 30px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Email Section */
+.emailSection {
+  background: rgba(51, 65, 85, 0.5);
+  border: 1px solid #475569;
+  border-radius: 15px;
+  padding: 25px;
+  margin: 30px 0;
+  transition: all 0.3s ease;
+}
+
+.emailSection:hover {
+  border-color: #22d3ee;
+  background: rgba(51, 65, 85, 0.7);
+}
+
+.emailText {
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: #22d3ee;
+  margin: 0 0 15px 0;
+  word-break: break-all;
+}
+
+.copyButton {
+  background: linear-gradient(45deg, #06b6d4, #a855f7);
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 0.9rem;
+}
+
+.copyButton:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(34, 211, 238, 0.3);
+}
+
+.responseText {
+  font-size: 1rem;
+  color: #94a3b8;
+  margin: 30px 0 0 0;
+  line-height: 1.6;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from { 
+    opacity: 0; 
+    transform: translateY(40px); 
+  }
+  to { 
+    opacity: 1; 
+    transform: translateY(0); 
+  }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .contactSection {
+    padding: 60px 15px;
+  }
+  
+  .contactCard {
+    padding: 25px;
+  }
+  
+  .cardTitle {
+    font-size: 1.5rem;
+  }
+  
+  .contactText {
+    font-size: 1rem;
+  }
+  
+  .emailText {
+    font-size: 1.1rem;
+  }
+}
