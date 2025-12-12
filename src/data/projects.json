@@ -33,5 +33,12 @@
     "image": "/project-five.png",
     "description": "A simple and efficient web application for tracking income and expenses, built with React.js, Redux, and CSS. It allows users to easily record transactions, categorize them, and maintain a clear overview of their financial activity. Designed with a clean interface for smooth navigation and effortless expense management. Project Link: devnewcode.github.io/expense-tracker/",
     "stack": ["React.js", "Redux", "CSS"]
+  },
+  {
+    "id": "project-six",
+    "name": "BlogApplication",
+    "image": "/project-six.png",
+    "description": "I built a production-ready blog platform using Next.js that showcases advanced full-stack development skills and innovative content management. The application features a custom file-based CMS using Markdown for blog posts, with custom parsing powered by gray-matter and JSX rendering through react-markdown. I developed dynamic routing, implemented server-side rendering and static site generation for optimal performance, and created reusable components including hero sections, navigation systems, post grids, and layouts. The platform integrates MongoDB for contact form submissions through RESTful API routes, utilizes React Portals for UI notifications, and includes custom head management for SEO optimization. I also implemented react-syntax-highlighter for beautiful code snippet rendering within blog posts. This project demonstrates my mastery of modern Next.js architecture, creative problem-solving with Markdown-based content storage, and end-to-end full-stack development from UI design to database integration. Project Link: https://blog-application-gamma-one.vercel.app/",
+    "stack": ["Next.js","React.js","CSS", "MongoDB", "grey-matter", "react-markdown", "API routes"]
   }
 ]

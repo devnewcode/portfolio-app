@@ -68,12 +68,16 @@ export default function About() {
                   <div className={styles.projectDesc}>Full-stack solution</div>
                 </div>
                 <div className={styles.projectItem}>
-                  <div className={styles.projectName}>E-commerce Platform</div>
-                  <div className={styles.projectDesc}>Shopping Cart System</div>
+                  <div className={styles.projectName}>Shopping Cart App</div>
+                  <div className={styles.projectDesc}>E-commerce Platform</div>
                 </div>
                 <div className={styles.projectItem}>
                   <div className={styles.projectName}>Event Management</div>
                   <div className={styles.projectDesc}>Admin Dashboard</div>
+                </div>
+                <div className={styles.projectItem}>
+                  <div className={styles.projectName}>BlogApplication</div>
+                  <div className={styles.projectDesc}>Content Platform</div>
                 </div>
               </div>
               <p className={styles.cardText}>
