@@ -1,10 +1,10 @@
 [
   {
     "id": "project-one",
-    "name": "Registration Management System Viplava 2024",
-    "image": "/viplava2024.png",
-    "description": "As a voluntary Full Stack Developer for Viplava 2024, a youth anti-addiction festival organized by ISKCON Youth Forum, I developed a complete registration management system that efficiently handled over 700 registrations. I built a responsive landing page, implemented secure form validation, integrated both online and offline payment options, and created a referral system to boost outreach. Additionally, I automated email confirmations using the Gmail API to streamline communication and reduce manual follow-up. This project allowed me to contribute technically to a meaningful cause, supporting event coordination and improving the overall registration experience.",
-    "stack": ["React.js", "HTML", "CSS", "JavaScript", "Node.js","MongoDB","Express.js"]
+    "name": "BlogApplication",
+    "image": "/project-one.png",
+    "description": "I built a production-ready blog platform using Next.js that showcases advanced full-stack development skills and innovative content management. The application features a custom file-based CMS using Markdown for blog posts, with custom parsing powered by gray-matter and JSX rendering through react-markdown. I developed dynamic routing, implemented server-side rendering and static site generation for optimal performance, and created reusable components including hero sections, navigation systems, post grids, and layouts. The platform integrates MongoDB for contact form submissions through RESTful API routes, utilizes React Portals for UI notifications, and includes custom head management for SEO optimization. I also implemented react-syntax-highlighter for beautiful code snippet rendering within blog posts. This project demonstrates my mastery of modern Next.js architecture, creative problem-solving with Markdown-based content storage, and end-to-end full-stack development from UI design to database integration. Project Link: https://blog-application-gamma-one.vercel.app/",
+    "stack": ["Next.js","React.js","CSS", "MongoDB", "grey-matter", "react-markdown", "API routes"]
   },
   {
     "id": "project-two",
@@ -36,9 +36,9 @@
   },
   {
     "id": "project-six",
-    "name": "BlogApplication",
-    "image": "/project-six.png",
-    "description": "I built a production-ready blog platform using Next.js that showcases advanced full-stack development skills and innovative content management. The application features a custom file-based CMS using Markdown for blog posts, with custom parsing powered by gray-matter and JSX rendering through react-markdown. I developed dynamic routing, implemented server-side rendering and static site generation for optimal performance, and created reusable components including hero sections, navigation systems, post grids, and layouts. The platform integrates MongoDB for contact form submissions through RESTful API routes, utilizes React Portals for UI notifications, and includes custom head management for SEO optimization. I also implemented react-syntax-highlighter for beautiful code snippet rendering within blog posts. This project demonstrates my mastery of modern Next.js architecture, creative problem-solving with Markdown-based content storage, and end-to-end full-stack development from UI design to database integration. Project Link: https://blog-application-gamma-one.vercel.app/",
-    "stack": ["Next.js","React.js","CSS", "MongoDB", "grey-matter", "react-markdown", "API routes"]
+    "name": "Registration Management System Viplava 2024",
+    "image": "/viplava2024.png",
+    "description": "As a voluntary Full Stack Developer for Viplava 2024, a youth anti-addiction festival organized by ISKCON Youth Forum, I developed a complete registration management system that efficiently handled over 700 registrations. I built a responsive landing page, implemented secure form validation, integrated both online and offline payment options, and created a referral system to boost outreach. Additionally, I automated email confirmations using the Gmail API to streamline communication and reduce manual follow-up. This project allowed me to contribute technically to a meaningful cause, supporting event coordination and improving the overall registration experience.",
+    "stack": ["React.js", "HTML", "CSS", "JavaScript", "Node.js","MongoDB","Express.js"]
   }
 ]
