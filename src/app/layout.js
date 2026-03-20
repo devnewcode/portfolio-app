@@ -31,7 +31,7 @@ export default function RootLayout({ children }) {
           </div>
         </nav>
         <main className="main-content">{children}</main>
-        <footer className="footer">© 2025 MyPortfolio</footer>
+        <footer className="footer">© 2026 Devrath Teotia</footer>
       </body>
     </html>
   );
