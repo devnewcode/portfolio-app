@@ -38,9 +38,7 @@ export default async function ProjectDetail({ params }) {
                         <div className={styles.titleUnderline}></div>
                     </div>
 
-                    {/* Project Content */}
                     <div className={styles.contentGrid}>
-                        {/* Image Section */}
                         <div className={styles.imageSection}>
                             <div className={styles.imageContainer}>
                                 <Image
@@ -54,7 +52,6 @@ export default async function ProjectDetail({ params }) {
                             </div>
                         </div>
 
-                        {/* Description Section */}
                         <div className={styles.descriptionSection}>
                             <div className={styles.descriptionCard}>
                                 <div className={styles.cardHeader}>

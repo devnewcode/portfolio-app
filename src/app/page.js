@@ -4,44 +4,35 @@ import Link from "next/link";
 import styles from './page.module.css';
 
 export default function Home() {
-  const skills = [
-  { name: 'React.js', category: 'Frontend', level: 90 },
-  { name: 'Next.js', category: 'Framework', level: 85 },
-  { name: 'Node.js', category: 'Backend', level: 80 },
-  { name: 'Express.js', category: 'Backend', level: 75 },
-  { name: 'MongoDB', category: 'Database', level: 70 },
-  { name: 'JavaScript', category: 'Language', level: 95 },
-  { name: 'HTML', category: 'Markup', level: 95 },
-  { name: 'CSS', category: 'Styling', level: 90 },
-  { name: 'Git', category: 'Version Control', level: 80 }
-];
+  const skills = {
+    Frontend:     ['React.js', 'Next.js', 'HTML', 'CSS', 'Tailwind CSS', 'Redux'],
+    Backend:      ['Node.js', 'Express.js', 'REST APIs', 'JWT'],
+    Database:     ['MongoDB', 'Mongoose ODM', 'MySQL'],
+    Tools:        ['Git', 'GitHub', 'Vercel', 'Docker', 'Postman'],
+    Integrations: ['Google Gemini API', 'Gmail API', 'Payment Gateway'],
+  };
 
   return (
     <div className={styles.container}>
-      {/* Background Animation */}
       <div className={styles.backgroundBlob1}></div>
       <div className={styles.backgroundBlob2}></div>
 
       {/* Hero Section */}
       <section className={styles.heroSection}>
         <div className={styles.heroContainer}>
-          {/* Left Content */}
+
+          {/* Left */}
           <div className={styles.heroLeft}>
-            {/* <div className={styles.welcomeText}> */}
-              {/* <span className={styles.sparkle}>✨</span> */}
-              {/* <span>Welcome to my digital space</span> */}
-            {/* </div> */}
-            
             <h1 className={styles.heroTitle}>
               Hello, I am <span className={styles.nameHighlight}>Devrath</span>
+              <span className={styles.heroSub}> — Full Stack Developer</span>
             </h1>
-            
+
             <p className={styles.heroDescription}>
-              Full Stack Developer passionate about creating{' '}
-              <span className={styles.highlight}>seamless web solutions</span>{' '}
-              using modern tech like React, MongoDB, and Next.js, focused on{' '}
-              <span className={styles.highlight2}>user-centric design</span>{' '}
-              and efficient backend systems.
+              I build web applications — from the interface down to the database.
+              I mostly work with <span className={styles.highlight}>React, Next.js, and Node.js</span>,
+              and I care about writing code that is{' '}
+              <span className={styles.highlight2}>clean, practical, and actually useful</span>.
             </p>
 
             <div className={styles.buttonGroup}>
@@ -49,19 +40,22 @@ export default function Home() {
                 <span>See My Work</span>
                 <span className={styles.arrow}>→</span>
               </Link>
-              
-              {/* <button className={styles.secondaryBtn}>
-                Download CV
-              </button> */}
+              <a
+                href="https://github.com/devnewcode"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.ghostBtn}
+              >
+                GitHub
+              </a>
             </div>
           </div>
 
-          {/* Right Content - Profile */}
+          {/* Right - Profile */}
           <div className={styles.heroRight}>
             <div className={styles.profileContainer}>
               <div className={styles.profileRing}>
                 <div className={styles.profileInner}>
-                  {/* Use your actual image */}
                   <Image
                     src={profilePic}
                     alt="Profile"
@@ -69,8 +63,6 @@ export default function Home() {
                     width={280}
                     height={280}
                   />
-                  {/* Or use just a letter - comment out Image above and uncomment below */}
-                  {/* <div className={styles.profileLetter}>D</div> */}
                 </div>
               </div>
             </div>
@@ -82,39 +74,41 @@ export default function Home() {
       <section className={styles.skillsSection}>
         <div className={styles.skillsContainer}>
           <h2 className={styles.skillsTitle}>
-            <span className={styles.skillsTitleGradient}>My Skills & Technologies</span>
+            <span className={styles.skillsTitleGradient}>Skills & Technologies</span>
           </h2>
-          <p className={styles.skillsSubtitle}>
-            A toolkit I use to build modern, scalable web applications
-          </p>
 
-          {/* Skills Grid */}
-          <div className={styles.skillsGrid}>
-            {skills.map((skill) => (
-              <div key={skill.name} className={styles.skillCard}>
-                <div className={styles.skillInfo}>
-                  <span className={styles.skillIcon}>{skill.icon}</span>
-                  <div>
-                    <h3 className={styles.skillName}>{skill.name}</h3>
-                    <span className={styles.skillCategory}>{skill.category}</span>
-                  </div>
-                </div>
-                
-                <div className={styles.skillProgress}>
-                  <div className={styles.skillBar} style={{ width: `${skill.level}%`}}></div>
+          <div className={styles.skillsGroupGrid}>
+            {Object.entries(skills).map(([category, items]) => (
+              <div key={category} className={styles.skillGroup}>
+                <h3 className={styles.skillGroupTitle}>{category}</h3>
+                <div className={styles.skillList}>
+                  {items.map(skill => (
+                    <span key={skill} className={styles.skillItem}>{skill}</span>
+                  ))}
                 </div>
               </div>
             ))}
           </div>
-
-          {/* Tech Icons */}
-          {/* <div className={styles.techIcons}>
-            <span className={styles.techIcon}>💻</span>
-            <span className={styles.techIcon}>🗄️</span>
-            <span className={styles.techIcon}>🌐</span>
-          </div> */}
         </div>
       </section>
+
+      {/* Bottom CTA */}
+      <section className={styles.ctaSection}>
+        <div className={styles.ctaLinks}>
+          <Link href="/contact" className={styles.ctaBtn}>
+            Get in Touch <span className={styles.arrow}>→</span>
+          </Link>
+          <a
+            href="https://linkedin.com/in/devrath-teotia-2b7464268"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.socialBtn}
+          >
+            LinkedIn
+          </a>
+        </div>
+      </section>
+
     </div>
   );
 }
