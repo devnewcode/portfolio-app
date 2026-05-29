@@ -352,3 +352,159 @@
   .skillsGroupGrid { grid-template-columns: 1fr; }
   .ctaLinks { flex-direction: column; }
 }
+
+/* ── paste this at the bottom of your page.module.css ──
+   (remove any beyondSection styles you added earlier)    */
+
+/* How I Work Section */
+.howSection {
+  padding: 0 20px 100px;
+  position: relative;
+  z-index: 1;
+}
+
+.howContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.howHeader {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.howEyebrow {
+  display: inline-block;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: #a855f7;
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+
+.howTitle {
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  font-weight: bold;
+  margin: 0 0 18px;
+}
+
+.howSubtitle {
+  font-size: 1.1rem;
+  color: #94a3b8;
+  max-width: 540px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+/* Cards */
+.howGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+  margin-bottom: 48px;
+}
+
+.howCard {
+  background: rgba(30, 41, 59, 0.5);
+  border: 1px solid #1e293b;
+  border-radius: 18px;
+  padding: 32px 28px;
+  transition: border-color 0.3s ease, transform 0.3s ease;
+}
+
+.howCard:hover {
+  border-color: #a855f7;
+  transform: translateY(-5px);
+}
+
+.howCardIcon {
+  font-size: 2.2rem;
+  margin-bottom: 18px;
+  display: block;
+}
+
+.howCardTitle {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #e2e8f0;
+  margin: 0 0 14px;
+  line-height: 1.4;
+}
+
+.howCardDesc {
+  font-size: 0.97rem;
+  color: #94a3b8;
+  line-height: 1.8;
+  margin: 0 0 20px;
+}
+
+.howTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.howTag {
+  font-size: 0.75rem;
+  padding: 4px 12px;
+  border-radius: 999px;
+  background: rgba(168, 85, 247, 0.12);
+  border: 1px solid rgba(168, 85, 247, 0.25);
+  color: #c084fc;
+  font-weight: 500;
+}
+
+/* Impact Bar */
+.impactBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: rgba(30, 41, 59, 0.4);
+  border: 1px solid #1e293b;
+  border-radius: 18px;
+  padding: 36px 40px;
+  gap: 0;
+}
+
+.impactStat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.impactNum {
+  font-size: 2rem;
+  font-weight: 700;
+  background: linear-gradient(45deg, #22d3ee, #a855f7);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 1.2;
+}
+
+.impactLabel {
+  font-size: 0.82rem;
+  color: #64748b;
+  margin-top: 6px;
+  text-align: center;
+}
+
+.impactDivider {
+  width: 1px;
+  height: 44px;
+  background: #1e293b;
+  flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+  .howGrid { grid-template-columns: 1fr; }
+  .impactBar { gap: 20px; padding: 28px 20px; }
+  .impactDivider { display: none; }
+  .impactStat { padding: 8px 20px; }
+  .impactNum { font-size: 1.7rem; }
+}
+
+/* ── end of paste ── */

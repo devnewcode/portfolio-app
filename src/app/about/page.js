@@ -16,7 +16,7 @@ export default function About() {
             </h1>
             <div className={styles.titleUnderline}></div>
             <p className={styles.headerSubtitle}>
-              Full Stack Developer · Lifelong Learner · Youth Volunteer
+              Full Stack Developer · Builder · Leader · Youth Volunteer
             </p>
           </div>
 
@@ -41,8 +41,8 @@ export default function About() {
                 <h2 className={styles.cardTitle}>Education & Skills</h2>
               </div>
               <p className={styles.cardText}>
-                I completed my <span className={styles.highlight}>Bachelor&apos;s in Computer Applications</span> from IGNOU and am currently
-                doing my <span className={styles.highlight2}>MCA from IMS Engineering College</span>, Ghaziabad.
+                I completed my <span className={styles.highlight}>Bachelor&apos;s in Computer Applications</span> from IGNOU and completed
+                 my <span className={styles.highlight2}>MCA from IMS Engineering College</span>, Ghaziabad.
               </p>
               <p className={styles.cardText}>
                 On the tech side I mostly work with{' '}
@@ -59,11 +59,11 @@ export default function About() {
             <div className={`${styles.contentCard} ${styles.journeyCard}`}>
               <div className={styles.cardHeader}>
                 <div className={styles.cardDot}></div>
-                <h2 className={styles.cardTitle}>My Journey</h2>
+                <h2 className={styles.cardTitle}>What I have Built</h2>
               </div>
-              <p className={styles.cardText}>
-                These are my projects and work:
-              </p>
+              {/* <p className={styles.cardText}>
+                These are some of my projects and work:
+              </p> */}
               <div className={styles.projectsGrid}>
                 <div className={styles.projectItem}>
                   <div className={styles.projectName}>IntelliQuiz</div>
@@ -74,20 +74,12 @@ export default function About() {
                   <div className={styles.projectDesc}>Markdown CMS with SSR & MongoDB</div>
                 </div>
                 <div className={styles.projectItem}>
-                  <div className={styles.projectName}>Restaurant App</div>
-                  <div className={styles.projectDesc}>Menu management & cart system</div>
-                </div>
-                <div className={styles.projectItem}>
                   <div className={styles.projectName}>Registration System</div>
                   <div className={styles.projectDesc}>Viplava 2024 — 700+ registrations</div>
                 </div>
                 <div className={styles.projectItem}>
                   <div className={styles.projectName}>Event Management</div>
                   <div className={styles.projectDesc}>Admin dashboard for society events</div>
-                </div>
-                <div className={styles.projectItem}>
-                  <div className={styles.projectName}>Shopping Cart App</div>
-                  <div className={styles.projectDesc}>React + Redux e-commerce platform</div>
                 </div>
               </div>
               <p className={styles.cardText}>
