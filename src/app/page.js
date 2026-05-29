@@ -70,7 +70,7 @@ export default function Home() {
               >
                 GitHub
               </a>
-              <a href="https://drive.google.com/file/d/1p29qGvSl9pYatMIaXFzjpf7IVgstEbmU/view?usp=sharing"
+              <a href="https://drive.google.com/file/d/11iZrAyo01jFN8ZDGvOc_T0xZct-hw3MA/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={styles.ghostBtn}

@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Dev by Devrath",
+  title: "<devrath />",
   description: "A portfolio built with Next.js and CSS, showcasing my skills and projects as a Full Stack Developer.",
 };
 
