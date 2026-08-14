@@ -32,6 +32,8 @@ An AI-powered quiz platform with role-based authentication, automated quiz gener
 
 **Tech Stack:** Next.js, React.js, MongoDB, Mongoose, JWT, Gemini API, Zod, Jest, GitHub Actions
 
+[Live Demo](https://intelli-quiz-flax.vercel.app/)
+
 ## Skills
 
 * **Frontend:** HTML, CSS, JavaScript, TypeScript, React.js, Next.js, Redux, Tailwind CSS
