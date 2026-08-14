@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Devrath Teotia — Portfolio
 
-## Getting Started
+Welcome to my personal portfolio website.
 
-First, run the development server:
+I am **Devrath Teotia**, a Software Developer interested in building modern **full-stack and AI-powered web applications** using technologies such as Next.js, React.js, Node.js, Python, and Generative AI.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## About Me
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+I enjoy turning ideas into practical, responsive, and scalable web applications. My experience includes full-stack development, REST APIs, databases, authentication, AI/LLM integration, and modern web technologies.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Projects
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Blog Application
 
-## Learn More
+A production-ready blog platform built with Next.js featuring a Markdown-based content management system, dynamic routing, reusable UI components, SEO optimization, and MongoDB integration for contact form submissions.
 
-To learn more about Next.js, take a look at the following resources:
+**Tech Stack:** Next.js, React.js, CSS, MongoDB, Gray Matter, React Markdown
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+[Live Demo](https://blog-application-lac-five.vercel.app/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Viplava 2024 — Registration Management System
 
-## Deploy on Vercel
+A registration management system developed as a volunteer Full Stack Developer for **Viplava 2024**, a youth anti-addiction festival organized by ISKCON Youth Forum.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The system handled **700+ registrations** and included secure form validation, online and offline payment options, referral tracking, and automated email confirmations using the Gmail API.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Tech Stack:** React.js, HTML, CSS, JavaScript, Node.js, MongoDB, Express.js
+
+### IntelliQuiz
+
+An AI-powered quiz platform with role-based authentication, automated quiz generation using the Gemini API, server-side evaluation, and automated testing.
+
+**Tech Stack:** Next.js, React.js, MongoDB, Mongoose, JWT, Gemini API, Zod, Jest, GitHub Actions
+
+## Skills
+
+* **Frontend:** HTML, CSS, JavaScript, TypeScript, React.js, Next.js, Redux, Tailwind CSS
+* **Backend:** Node.js, Express.js, Python, FastAPI, REST APIs, JWT
+* **AI & GenAI:** LangChain, FAISS, RAG, Gemini API, Prompt Engineering, LLM Integration
+* **Database:** MongoDB, MySQL
+* **Tools:** Git, GitHub, Docker, Postman, Linux, Vercel
+
+## Connect With Me
+
+* **Email:** [devrathteotia2001@gmail.com](mailto:devrathteotia2001@gmail.com)
+* **LinkedIn:** https://linkedin.com/in/devrath-teotia-2b7464268
+* **GitHub:** https://github.com/devnewcode
+
+---
+
+Built with **Next.js**.
