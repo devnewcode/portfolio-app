@@ -87,10 +87,11 @@ export default function Home() {
                 <div className={styles.profileInner}>
                   <Image
                     src={profilePic}
-                    alt="Profile"
+                    alt="Devrath Teotia - Full Stack Developer"
                     className={styles.profileImg}
                     width={280}
                     height={280}
+                    priority
                   />
                 </div>
               </div>
