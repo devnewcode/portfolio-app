@@ -176,7 +176,7 @@
   inset: 0;
   border-radius: 50%;
   background: linear-gradient(45deg, #22d3ee, #a855f7, #f472b6);
-  animation: spin 3s linear infinite;
+  animation: spin 8s linear infinite;
   padding: 3px;
 }
 
@@ -188,7 +188,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  animation: spin 3s linear infinite reverse;
+  animation: spin 8s linear infinite reverse;
 }
 
 .profileImg {
@@ -353,9 +353,6 @@
   .ctaLinks { flex-direction: column; }
 }
 
-/* ── paste this at the bottom of your page.module.css ──
-   (remove any beyondSection styles you added earlier)    */
-
 /* How I Work Section */
 .howSection {
   padding: 0 20px 100px;
@@ -504,7 +501,4 @@
   .impactBar { gap: 20px; padding: 28px 20px; }
   .impactDivider { display: none; }
   .impactStat { padding: 8px 20px; }
-  .impactNum { font-size: 1.7rem; }
 }
-
-/* ── end of paste ── */
