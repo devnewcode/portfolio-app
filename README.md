@@ -1,52 +1,56 @@
 # Devrath Teotia — Portfolio
 
-Welcome to my personal portfolio website.
+> Full Stack Developer specializing in React, Next.js, Node.js, and AI integrations.
 
-I am **Devrath Teotia**, a Software Developer interested in building modern **full-stack and AI-powered web applications** using technologies such as Next.js, React.js, Node.js, Python, and Generative AI.
+🌐 **Live Website:** [https://devrathteotia.vercel.app](https://devrathteotia.vercel.app)
+
+---
 
 ## About Me
 
-I enjoy turning ideas into practical, responsive, and scalable web applications. My experience includes full-stack development, REST APIs, databases, authentication, AI/LLM integration, and modern web technologies.
+I enjoy turning ideas into practical, responsive, and scalable web applications from the interface down to the database. My experience includes full-stack development, REST APIs, databases, authentication, AI/LLM integration, and modern web technologies.
+
+---
 
 ## Projects
 
-### Blog Application
+### IntelliQuiz — AI Powered Quiz App
+An AI-powered quiz platform featuring automated quiz generation on any topic using the Google Gemini API, secure JWT authentication, Next.js serverless REST APIs, and a student performance analytics dashboard.
 
-A production-ready blog platform built with Next.js featuring a Markdown-based content management system, dynamic routing, reusable UI components, SEO optimization, and MongoDB integration for contact form submissions.
-
-**Tech Stack:** Next.js, React.js, CSS, MongoDB, Gray Matter, React Markdown
-
-[Live Demo](https://blog-application-lac-five.vercel.app/)
+* **Tech Stack:** Next.js, React.js, MongoDB, Mongoose, JWT, Google Gemini API, CSS
+* **Live Demo:** [https://intelli-quiz-flax.vercel.app](https://intelli-quiz-flax.vercel.app)
+* **GitHub Repo:** [https://github.com/devnewcode/IntelliQuiz](https://github.com/devnewcode/IntelliQuiz)
 
 ### Viplava 2024 — Registration Management System
+A registration management system developed as a voluntary Full Stack Developer for **Viplava 2024**, a youth anti-addiction festival organized by ISKCON Youth Forum. The system handled **700+ registrations** with 99% uptime, featuring secure form validation, online and offline payment options, referral tracking, and automated email confirmations using the Gmail API.
 
-A registration management system developed as a volunteer Full Stack Developer for **Viplava 2024**, a youth anti-addiction festival organized by ISKCON Youth Forum.
+* **Tech Stack:** React.js, Node.js, Express.js, MongoDB, Gmail API, HTML/CSS
 
-The system handled **700+ registrations** and included secure form validation, online and offline payment options, referral tracking, and automated email confirmations using the Gmail API.
+### Blog Application
+A production-ready blog platform built with Next.js featuring a custom Markdown-based content management system (gray-matter & react-markdown), dynamic routing, reusable UI components, SEO optimization, and MongoDB integration for contact form submissions.
 
-**Tech Stack:** React.js, HTML, CSS, JavaScript, Node.js, MongoDB, Express.js
+* **Tech Stack:** Next.js, React.js, CSS, MongoDB, gray-matter, react-markdown, API routes
+* **Live Demo:** [https://blog-application-lac-five.vercel.app](https://blog-application-lac-five.vercel.app)
+* **GitHub Repo:** [https://github.com/devnewcode/BlogApplication](https://github.com/devnewcode/BlogApplication)
 
-### IntelliQuiz
-
-An AI-powered quiz platform with role-based authentication, automated quiz generation using the Gemini API, server-side evaluation, and automated testing.
-
-**Tech Stack:** Next.js, React.js, MongoDB, Mongoose, JWT, Gemini API, Zod, Jest, GitHub Actions
-
-[Live Demo](https://intelli-quiz-flax.vercel.app/)
+---
 
 ## Skills
 
-* **Frontend:** HTML, CSS, JavaScript, TypeScript, React.js, Next.js, Redux, Tailwind CSS
-* **Backend:** Node.js, Express.js, Python, FastAPI, REST APIs, JWT
-* **AI & GenAI:** LangChain, FAISS, RAG, Gemini API, Prompt Engineering, LLM Integration
-* **Database:** MongoDB, MySQL
-* **Tools:** Git, GitHub, Docker, Postman, Linux, Vercel
+* **Frontend:** HTML, CSS, JavaScript, React.js, Next.js, Redux, Tailwind CSS
+* **Backend:** Node.js, Express.js, REST APIs, JWT
+* **Integrations & AI:** Google Gemini API, Gmail API, Payment Gateway Integration
+* **Database:** MongoDB, Mongoose ODM, MySQL
+* **Tools:** Git, GitHub, Docker, Postman, Vercel
+
+---
 
 ## Connect With Me
 
+* **Portfolio:** [devrathteotia.vercel.app](https://devrathteotia.vercel.app)
+* **LinkedIn:** [linkedin.com/in/devrath-teotia-2b7464268](https://linkedin.com/in/devrath-teotia-2b7464268)
+* **GitHub:** [github.com/devnewcode](https://github.com/devnewcode)
 * **Email:** [devrathteotia2001@gmail.com](mailto:devrathteotia2001@gmail.com)
-* **LinkedIn:** https://linkedin.com/in/devrath-teotia-2b7464268
-* **GitHub:** https://github.com/devnewcode
 
 ---
 

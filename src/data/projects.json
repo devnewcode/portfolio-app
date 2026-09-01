@@ -11,7 +11,7 @@
     ],
     "stack": ["Next.js", "React.js", "MongoDB", "Mongoose", "JWT", "Google Gemini API", "CSS"],
     "liveUrl": "https://intelli-quiz-flax.vercel.app/",
-    "githubUrl": null
+    "githubUrl": "https://github.com/devnewcode/IntelliQuiz"
   },
   {
     "id": "project-seven",
@@ -39,7 +39,7 @@
     ],
     "stack": ["Next.js", "React.js", "CSS", "MongoDB", "gray-matter", "react-markdown", "API routes"],
     "liveUrl": "https://blog-application-lac-five.vercel.app/",
-    "githubUrl": null
+    "githubUrl": "https://github.com/devnewcode/BlogApplication"
   },
   {
     "id": "project-three",
