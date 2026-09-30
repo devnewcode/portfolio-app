@@ -1,6 +1,22 @@
 [
   {
-    "id": "project-one",
+    "id": "lead-volunteer-platform",
+    "name": "Lead & Volunteer Management Platform",
+    "image": "/lead-and-crm-management.png",
+    "description": "Contributed as the lead full-stack developer to architect and build an operations CRM and volunteer management platform for the ISKCON Youth Forum. The platform replaced fragmented spreadsheets with an automated ecosystem for field outreach, volunteer calling campaigns, and live event management. I engineered the system to solve critical operational bottlenecks—implementing balanced volunteer lead distribution, conflict-aware bulk data ingestion, and a real-time event check-in desk. To resolve edge cases where family members share contact numbers, I designed compound database indexing and schema isolation, ensuring zero data loss and independent attendance tracking under high operational volume.",
+    "highlights": [
+      "Engineered an automated telecalling engine that dynamically balances outreach leads across active volunteer callers with zero overlap, cutting manual coordination time by 80%.",
+      "Solved relational data integrity challenges by designing custom compound MongoDB indexing to support multiple candidates sharing household contact numbers without data collisions or overwrites.",
+      "Built a high-volume Excel ingestion pipeline with automated phone normalization, dynamic column mapping, and an interactive pre-flight conflict resolution modal before database persistence.",
+      "Developed a live event attendance desk featuring real-time check-in counters, attendance tracking, and prompt-verified on-spot attendee registrations.",
+      "Secured the platform with fine-grained Role-Based Access Control (RBAC) and JWT authentication, cleanly isolating administrative oversight from volunteer caller dashboards."
+    ],
+    "stack": ["Next.js", "React.js", "Node.js", "MongoDB", "Mongoose", "SheetJS", "RBAC", "JWT", "CSS Modules"],
+    "liveUrl": null,
+    "githubUrl": null
+  },
+  {
+    "id": "intelliquiz",
     "name": "IntelliQuiz",
     "image": "/intelliquiz.png",
     "description": "IntelliQuiz is a full-stack AI-powered quiz application built with Next.js, React.js, and MongoDB, featuring secure JWT-based authentication for user sign-up and login. The core highlight of the project is its deep integration with the Google Gemini AI API, which auto-generates quiz questions from any topic using structured prompts and customizable difficulty modes, eliminating the need for a static question bank. I built RESTful APIs using Next.js serverless functions and Mongoose ODM to handle quiz sessions, user scores, and data persistence. The UI includes a responsive countdown timer, real-time score tracking, and a student performance analytics dashboard for reviewing past results. This project demonstrates my ability to integrate cutting-edge AI APIs into production-grade full-stack applications with a focus on dynamic content generation and scalable architecture.",
@@ -14,7 +30,7 @@
     "githubUrl": "https://github.com/devnewcode/IntelliQuiz"
   },
   {
-    "id": "project-seven",
+    "id": "viplava-2024",
     "name": "Registration Management System Viplava 2024",
     "image": "/viplava2024.png",
     "description": "As a voluntary Full Stack Developer for Viplava 2024, a youth anti-addiction festival organized by ISKCON Youth Forum, I developed a complete registration management system that efficiently handled over 700 registrations. I built a responsive landing page, implemented secure form validation, integrated both online and offline payment options, and created a referral system to boost outreach. Additionally, I automated email confirmations using the Gmail API to streamline communication and reduce manual follow-up. This project allowed me to contribute technically to a meaningful cause, supporting event coordination and improving the overall registration experience.",
@@ -28,7 +44,7 @@
     "githubUrl": null
   },
   {
-    "id": "project-two",
+    "id": "blog-application",
     "name": "BlogApplication",
     "image": "/project-one.png",
     "description": "A production-ready blog platform built using Next.js that showcases advanced full-stack development skills and innovative content management. The application features a custom file-based CMS using Markdown for blog posts, with custom parsing powered by gray-matter and JSX rendering through react-markdown. I developed dynamic routing, implemented server-side rendering and static site generation for optimal performance, and created reusable components including hero sections, navigation systems, post grids, and layouts. The platform integrates MongoDB for contact form submissions through RESTful API routes, utilizes React Portals for UI notifications, and includes custom head management for SEO optimization. I also implemented react-syntax-highlighter for beautiful code snippet rendering within blog posts.",
@@ -42,7 +58,7 @@
     "githubUrl": "https://github.com/devnewcode/BlogApplication"
   },
   {
-    "id": "project-three",
+    "id": "restaurant-app",
     "name": "Restaurant App",
     "image": "/project-two.png",
     "description": "Built a responsive and feature-rich restaurant web application using Next.js, MongoDB, and CSS, aimed at helping restaurants manage their online menus and customer interactions. The app offers a smooth user experience with secure sign-up, dynamic menu browsing, and a smart cart system that ensures users can order from only one restaurant at a time. For restaurant owners, the platform includes an intuitive dashboard to update menus in real-time, with the ability to add, edit, or remove food items effortlessly. This project showcases practical full-stack development, user-focused design, and real-time data handling, ideal for modern restaurant operations.",
@@ -56,7 +72,7 @@
     "githubUrl": null
   },
   {
-    "id": "project-four",
+    "id": "event-management-system",
     "name": "Event Management & Admin Dashboard System",
     "image": "/project-three.png",
     "description": "I developed a voluntary event registration and management system for a society, designed to streamline participant registration and attendance tracking. The system includes an admin dashboard where organizers can view and manage attendee details, monitor event attendance in real time, and maintain a centralized participant database. The project was built using Next.js for the frontend and server-side rendering, with MongoDB as the database to store and manage participant information efficiently. Node.js and Express were used for backend APIs and data handling, integrated seamlessly within the Next.js application. This solution improved the society’s event organization workflow while reducing manual tracking.",
@@ -70,7 +86,7 @@
     "githubUrl": null
   },
   {
-    "id": "project-five",
+    "id": "shopping-cart-app",
     "name": "Shopping Cart App",
     "image": "/project-four.png",
     "description": "An e-commerce web application built with React.js, Redux, and Tailwind CSS. It features a clean, intuitive user interface with smooth navigation and dynamic cart functionality. Users can browse products, add or remove items, and see real-time price updates without page reloads. The design focuses on simplicity and a seamless shopping experience.",
@@ -83,7 +99,7 @@
     "githubUrl": null
   },
   {
-    "id": "project-six",
+    "id": "expense-tracker",
     "name": "Expense Tracker",
     "image": "/project-five.png",
     "description": "A simple and efficient web application for tracking income and expenses, built with React.js, Redux, and CSS. It allows users to easily record transactions, categorize them, and maintain a clear overview of their financial activity. Designed with a clean interface for smooth navigation and effortless expense management.",

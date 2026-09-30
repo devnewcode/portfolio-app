@@ -14,6 +14,12 @@ I enjoy turning ideas into practical, responsive, and scalable web applications 
 
 ## Projects
 
+### Lead & Volunteer Operations Platform
+Contributed as the lead full-stack developer to architect and build an operations CRM and volunteer management platform for the ISKCON Youth Forum. Features automated Excel bulk import (SheetJS) with pre-flight deduplication, an algorithmic telecalling campaign engine with dynamic quota partitioning and one-touch mobile calling (tel:), and role-scoped batch portals with MongoDB compound indexing.
+
+* **Tech Stack:** Next.js, React.js, Node.js, MongoDB, Mongoose, SheetJS, RBAC, JWT, CSS Modules
+* **Deployment:** Internal Production System
+
 ### IntelliQuiz — AI Powered Quiz App
 An AI-powered quiz platform featuring automated quiz generation on any topic using the Google Gemini API, secure JWT authentication, Next.js serverless REST APIs, and a student performance analytics dashboard.
 

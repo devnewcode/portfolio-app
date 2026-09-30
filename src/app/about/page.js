@@ -86,21 +86,21 @@ export default function About() {
                 <h2 className={styles.cardTitle}>What I have Built</h2>
               </div>
               <div className={styles.projectsGrid}>
-                <Link href="/projects/project-one" className={styles.projectItem}>
+                <Link href="/projects/lead-volunteer-platform" className={styles.projectItem}>
+                  <div className={styles.projectName}>Lead & Volunteer CRM ↗</div>
+                  <div className={styles.projectDesc}>Telecalling & operations engine</div>
+                </Link>
+                <Link href="/projects/intelliquiz" className={styles.projectItem}>
                   <div className={styles.projectName}>IntelliQuiz ↗</div>
                   <div className={styles.projectDesc}>AI-generated quizzes using Gemini API</div>
                 </Link>
-                <Link href="/projects/project-two" className={styles.projectItem}>
-                  <div className={styles.projectName}>Blog Application ↗</div>
-                  <div className={styles.projectDesc}>Markdown CMS with SSR & MongoDB</div>
-                </Link>
-                <Link href="/projects/project-seven" className={styles.projectItem}>
+                <Link href="/projects/viplava-2024" className={styles.projectItem}>
                   <div className={styles.projectName}>Registration System ↗</div>
                   <div className={styles.projectDesc}>Viplava 2024 — 700+ registrations</div>
                 </Link>
-                <Link href="/projects/project-four" className={styles.projectItem}>
-                  <div className={styles.projectName}>Event Management ↗</div>
-                  <div className={styles.projectDesc}>Admin dashboard for society events</div>
+                <Link href="/projects/blog-application" className={styles.projectItem}>
+                  <div className={styles.projectName}>Blog Application ↗</div>
+                  <div className={styles.projectDesc}>Markdown CMS with SSR & MongoDB</div>
                 </Link>
               </div>
               <p className={styles.cardText}>
