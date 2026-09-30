@@ -2,7 +2,7 @@
 .container {
   min-width: 100%;
   min-height: 100vh;
-  background: linear-gradient(135deg, #0f172a 0%, #581c87 50%, #0f172a 100%);
+  background: linear-gradient(135deg, #0b1120 0%, #16122b 50%, #0b1120 100%);
   color: white;
   position: relative;
   font-family: var(--font-geist-sans, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif);
@@ -20,14 +20,14 @@
 }
 
 .backgroundBlob1 {
-  background: rgba(168, 85, 247, 0.3);
+  background: rgba(168, 85, 247, 0.2);
   top: 0;
   right: 0;
   transform: translate(50%, -50%);
 }
 
 .backgroundBlob2 {
-  background: rgba(34, 211, 238, 0.3);
+  background: rgba(34, 211, 238, 0.2);
   animation-direction: reverse;
   animation-duration: 8s;
   bottom: 0;

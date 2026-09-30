@@ -2,7 +2,7 @@
 .container {
   min-width: 100%;
   min-height: 100%;
-  background: linear-gradient(135deg, #0f172a 0%, #581c87 50%, #0f172a 100%);
+  background: linear-gradient(135deg, #0b1120 0%, #16122b 50%, #0b1120 100%);
   color: white;
   position: relative;
   font-family: var(--font-geist-sans, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif);
@@ -20,14 +20,14 @@
 }
 
 .backgroundBlob1 {
-  background: rgba(168, 85, 247, 0.3);
+  background: rgba(168, 85, 247, 0.2);
   top: 0;
   right: 0;
   transform: translate(50%, -50%);
 }
 
 .backgroundBlob2 {
-  background: rgba(34, 211, 238, 0.3);
+  background: rgba(34, 211, 238, 0.2);
   animation-direction: reverse;
   animation-duration: 8s;
   bottom: 0;
@@ -137,14 +137,16 @@
   font-weight: 500;
   font-size: 0.95rem;
   text-decoration: none;
-  border: 1px solid #334155;
-  color: #94a3b8;
-  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: transparent;
+  color: #cbd5e1;
+  transition: all 0.25s ease;
 }
 
 .ghostBtn:hover {
-  border-color: #64748b;
-  color: #e2e8f0;
+  border-color: rgba(255, 255, 255, 0.35);
+  background: rgba(255, 255, 255, 0.06);
+  color: #ffffff;
   transform: translateY(-2px);
 }
 
@@ -403,37 +405,37 @@
 }
 
 .howCard {
-  background: rgba(30, 41, 59, 0.5);
-  border: 1px solid #1e293b;
+  background: rgba(30, 41, 59, 0.55);
+  border: 1px solid rgba(51, 65, 85, 0.7);
   border-radius: 18px;
-  padding: 32px 28px;
-  transition: border-color 0.3s ease, transform 0.3s ease;
+  padding: 34px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  backdrop-filter: blur(8px);
+  transition: border-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .howCard:hover {
-  border-color: #a855f7;
-  transform: translateY(-5px);
-}
-
-.howCardIcon {
-  font-size: 2.2rem;
-  margin-bottom: 18px;
-  display: block;
+  border-color: #22d3ee;
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(34, 211, 238, 0.12);
 }
 
 .howCardTitle {
-  font-size: 1.15rem;
+  font-size: 1.22rem;
   font-weight: 600;
-  color: #e2e8f0;
-  margin: 0 0 14px;
+  color: #f8fafc;
+  margin: 0 0 12px;
   line-height: 1.4;
+  letter-spacing: -0.01em;
 }
 
 .howCardDesc {
   font-size: 0.97rem;
-  color: #94a3b8;
-  line-height: 1.8;
-  margin: 0 0 20px;
+  color: #cbd5e1;
+  line-height: 1.75;
+  margin: 0 0 24px;
 }
 
 .howTags {

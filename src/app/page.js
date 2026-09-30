@@ -14,22 +14,19 @@ export default function Home() {
 
   const howIWork = [
     {
-      icon: '💻',
-      title: 'I Build Full Stack Products',
-      desc: 'From UI to database — I build complete, production-ready web apps using React, Next.js, and Node.js. My projects are live, used by real people, and built with clean architecture in mind.',
-      tags: ['React / Next.js', 'Node.js', 'AI Integration', 'Deployed & live'],
+      title: 'End-to-End Product Engineering',
+      desc: 'From user interfaces to database architecture, I build complete, production-ready web apps using React, Next.js, and Node.js with a focus on clean architecture and reliability.',
+      tags: ['React / Next.js', 'Node.js', 'System Architecture', 'Deployed & Live'],
     },
     {
-      icon: '🛠️',
-      title: 'I Solve Real Problems',
-      desc: 'Built a Registration Management System for Iskcon Youth Forum serving 700+ users with 99% uptime — automating workflows that cut manual effort by 70%. Real stakes, not a side project.',
-      tags: ['700+ users', 'Production system', 'Volunteer'],
+      title: 'Solving Operational Bottlenecks',
+      desc: 'I design software around real-world friction—like engineering automated lead distribution and check-in desks that reduced manual coordination effort by 70%.',
+      tags: ['Process Optimization', '700+ Users', 'Data Integrity', 'Measurable Impact'],
     },
     {
-      icon: '👥',
-      title: 'I Lead Tech & Non-Tech Teams',
-      desc: 'Coordinated multiple events at Iskcon Youth Forum and IMS Engineering College — managing tech teams, non-tech volunteers, logistics, and real-time execution. I speak both languages fluently.',
-      tags: ['Cross-functional', 'Event coordination', '2+ years'],
+      title: 'Cross-Functional Team Coordination',
+      desc: 'Experienced in bridging technical contributors and volunteer teams across events and projects—managing requirements, timelines, and live execution.',
+      tags: ['Cross-Functional', 'Team Coordination', 'Stakeholder Alignment', 'Execution'],
     },
   ];
 
@@ -46,15 +43,14 @@ export default function Home() {
           <div className={styles.heroLeft}>
             <h1 className={styles.heroTitle}>
               Hello, I am <span className={styles.nameHighlight}>Devrath</span>
-              <span className={styles.heroSub}> — Developer who Builds & Leads</span>
             </h1>
 
             <p className={styles.heroDescription}>
-              I build web applications — from the interface down to the database.
-              I mostly work with <span className={styles.highlight}>React, Next.js, and Node.js</span>,
-              and I care about writing code that is{' '}
-              <span className={styles.highlight2}>clean, practical, and actually useful</span>.
-              I also lead and coordinate tech and non-tech teams to ship things that matter.
+              I build web applications with a strong focus on{' '}
+              <span className={styles.highlight}>product thinking, clean architecture, and practical impact</span>.
+              With a background spanning <span className={styles.highlight}>full-stack engineering (React, Next.js, Node.js)</span> and{' '}
+              <span className={styles.highlight2}>cross-functional team coordination</span>,
+              I enjoy taking projects from initial requirements all the way to deployed systems that solve real operational bottlenecks.
             </p>
 
             <div className={styles.buttonGroup}>
@@ -105,7 +101,7 @@ export default function Home() {
         <div className={styles.howContainer}>
 
           <div className={styles.howHeader}>
-            <span className={styles.howEyebrow}>Developer · Builder · Coordinator</span>
+            <span className={styles.howEyebrow}>Builder · Problem Solver · Team Coordinator</span>
             <h2 className={styles.howTitle}>
               <span className={styles.skillsTitleGradient}>How I Work</span>
             </h2>
@@ -114,7 +110,6 @@ export default function Home() {
           <div className={styles.howGrid}>
             {howIWork.map((item) => (
               <div key={item.title} className={styles.howCard}>
-                <div className={styles.howCardIcon}>{item.icon}</div>
                 <h3 className={styles.howCardTitle}>{item.title}</h3>
                 <p className={styles.howCardDesc}>{item.desc}</p>
                 <div className={styles.howTags}>
@@ -129,23 +124,18 @@ export default function Home() {
           {/* Impact Bar */}
           <div className={styles.impactBar}>
             <div className={styles.impactStat}>
-              <span className={styles.impactNum}>1500+</span>
+              <span className={styles.impactNum}>2000+</span>
               <span className={styles.impactLabel}>users served</span>
             </div>
             <div className={styles.impactDivider} />
             <div className={styles.impactStat}>
-              <span className={styles.impactNum}>70%</span>
+              <span className={styles.impactNum}>80%</span>
               <span className={styles.impactLabel}>manual effort saved</span>
             </div>
             <div className={styles.impactDivider} />
             <div className={styles.impactStat}>
               <span className={styles.impactNum}>5+</span>
-              <span className={styles.impactLabel}>live projects shipped</span>
-            </div>
-            <div className={styles.impactDivider} />
-            <div className={styles.impactStat}>
-              <span className={styles.impactNum}>Both</span>
-              <span className={styles.impactLabel}>tech &amp; non-tech teams</span>
+              <span className={styles.impactLabel}>live systems shipped</span>
             </div>
           </div>
 

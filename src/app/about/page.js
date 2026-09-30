@@ -26,7 +26,7 @@ export default function About() {
             </h1>
             <div className={styles.titleUnderline}></div>
             <p className={styles.headerSubtitle}>
-              Full Stack Developer · Builder · Leader · Youth Volunteer
+              Builder · Problem Solver · Team Coordinator
             </p>
           </div>
 
@@ -37,10 +37,11 @@ export default function About() {
                 <h2 className={styles.cardTitle}>Introduction</h2>
               </div>
               <p className={styles.cardText}>
-                Hi, I&apos;m <span className={styles.highlight}>Devrath Teotia</span> — a
-                <span className={styles.highlight2}> Full Stack Developer</span> from Ghaziabad, Uttar Pradesh.
-                I enjoy building web applications and figuring out how things work, from the UI down to the database.
-                I&apos;m learning a lot and I like it that way.
+                Hi, I&apos;m <span className={styles.highlight}>Devrath Teotia</span> — a{" "}
+                <span className={styles.highlight2}>Developer &amp; Systems Builder</span>.
+                I enjoy architecting end-to-end web applications, solving workflow and data bottlenecks,
+                and building software that directly impacts real users. My focus is on clean architecture,
+                thoughtful execution, and shipping products that matter.
               </p>
             </div>
 
@@ -119,12 +120,10 @@ export default function About() {
                 keeping them away from addiction and negativity, and helping them find something meaningful to be part of.
               </p>
               <p className={styles.cardText}>
-                My role isn&apos;t only technical. I&apos;ve been part of event coordination, outreach, and a lot of the
-                ground-level work that goes into organizing something like{" "}
-                <span className={styles.highlight2}>Viplava 2024</span>. On the tech side I built the registration
-                system - handling <span className={styles.highlight3}>700+ registrations</span>, payments, email
-                automation, and a referral system. But the real work was the whole team coming together for something
-                we genuinely believed in.
+                I&apos;ve been part of event coordination, outreach, and a lot of the ground-level work that goes into
+                organizing festivals and seminars. On the tech side, I build the tools the team needs to function — whether
+                that was the <span className={styles.highlight2}>registration systems</span> or <span className={styles.highlight3}>management platforms</span>.
+                But the real work was always the whole team coming together for something we genuinely believed in.
               </p>
               <p className={styles.cardText}>
                 It&apos;s one of those things that reminds you why you do what you do.
